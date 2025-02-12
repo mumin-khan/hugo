@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Params.faq }}
+    <h2>{{ .q }}</h2>
+    <p>{{ .a }}</p>
+  {{ end }}
+{{ end }}
