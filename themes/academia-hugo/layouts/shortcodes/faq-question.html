@@ -12,44 +12,19 @@
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 10px;
-  background-color: #f8f9fa;
 }
 
 /* Question Styling */
 .faq-question {
   font-weight: bold;
   cursor: pointer;
-  color: #111112;
   list-style: none;
   padding: 10px;
-}
-
-/* Remove default triangle and add custom toggle effect */
-.faq-box summary {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-  list-style: none;
-}
-
-/* Add an arrow indicator */
-.faq-box summary::after {
-  content: "▼";  /* Closed state */
-  font-size: 14px;
-  margin-left: 10px;
-  transition: transform 0.3s ease;
-}
-
-/* When open, rotate the arrow */
-.faq-box[open] summary::after {
-  content: "▲";  /* Open state */
-  transform: rotate(180deg);
 }
 
 /* Answer Styling */
 .faq-answer {
   padding-top: 10px;
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #d4d2d2;
 }
 </style>

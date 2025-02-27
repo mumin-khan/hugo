@@ -1,38 +1,53 @@
 +++
-# A Recent Publications section created with the Pages widget.
-# This section displays recent blog posts from `content/publication/`.
-weight = 90  # Order that this section will appear.
-title = "FAQs"
+# Accomplishments widget.
+widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 50  # Order that this section will appear.
+
+title = "Publications"
+
+# Date format
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format = "Jan 2006"
+
+# Accomplishments.
+#   Add/remove as many `[[item]]` blocks below as you like.
+#   `title`, `organization` and `date_start` are the required parameters.
+#   Leave other parameters empty if not required.
+#   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[item]]
+  organization = "Arab Journal of Gastroenterology"
+  organization_url = "https://www.sciencedirect.com/journal/arab-journal-of-gastroenterology"
+  title = "Evaluation of iron deficiency anaemia for gastrointestinal causes in patients without GI symptoms in high prevalent GI malignancy zones"
+  url = "https://www.sciencedirect.com/science/article/abs/pii/S1687197916300302"
+  date_start = "2016-06-01"
+  date_end = ""
+
+[[item]]
+  organization = "Journal Of Diabetology"
+  organization_url = "https://journals.lww.com/jodb/pages/default.aspx"
+  title = "prevalence of diabetes mellitus in newly detected patients with hepatitis C"
+  url = "https://journals.lww.com/jodb/fulltext/2020/11020/Prevalence_of_Diabetes_Mellitus_in_Newly_Detected.10.aspx"
+  date_start = "2020-05-01"
+  date_end = ""
+  
+[[item]]
+  organization = "Journal of Digestive Endoscopy"
+  organization_url = "https://www.thieme-connect.com/products/ejournals/journal/10.1055/s-00043283"
+  title = "Unique pattern of true foreign-body ingestion in the valley of Kashmir; sharp foreign bodies outnumbering the blunt ones"
+  url = "https://www.thieme-connect.com/products/ejournals/html/10.4103/jde.JDE_74_18"
+  date_start = "2019-01-01"
+  description = ""
+  
+[[item]]
+  organization = "Asian Journal of Medical Sciences"
+  organization_url = "https://www.nepjol.info/index.php/AJMS/index"
+  title = "Epidemiological and endoscopic profile of patients with upper gastrointestinal bleeding at a tertiary care center in Northern India: A retrospective analysis of twenty years"
+  url = "https://ajmsjournal.info/index.php/AJMS/article/view/1698"
+  date_start = "2017-07-01"
+  date_end = "2023-05-02"
+  description = ""
+
 +++
-
-
-{{< faq-question "What are the OPD clinic timings?" >}}
-Monday to Sunday
-1st Shift : 8:00 AM to 11 :00 AM
-
-Monday to Thursday and Saturday 
-2nd Shift: 3:30 PM to 7:00 PM
-{{< /faq-question >}}
-
-{{< faq-question "How can I schedule an appointment with Dr. Bilal Ahmad Khan?" >}}
-Appointments can be scheduled either by visiting the clinic directly during consultation hours or by calling the clinic at 9622738206 to book in advance.{{< /faq-question >}}
-
-{{< faq-question "What should I bring to my first appointment?">}}
-Please bring your medical records, previous test reports, a list of medications you are taking, and a summary of your symptoms.
-{{< /faq-question >}}
-
-{{< faq-question "Does the clinic offer same-day procedures?">}}
-Yes, certain diagnostic and therapeutic procedures can be performed on the same day, depending on the patientâ€™s condition and prior arrangements.
-{{< /faq-question >}}
-{{< faq-question "Do any of the procedures performed at the clinic require prior preparation?">}}
-Yes, certain procedures like colonoscopy, endoscopy, and ERCP may require prior preparation. This could include fasting for a specific period, avoiding certain medications, or following a special diet. Detailed instructions will be provided when you schedule your appointment.{{< /faq-question >}}
-{{< faq-question "What are the warning signs of serious gastrointestinal issues that require immediate consultation?t?">}}
-Common signs include persistent abdominal pain, unexplained weight loss, blood in stool, chronic diarrhea, difficulty swallowing, severe bloating, and jaundice. If you experience any of these, itâ€™s crucial to seek medical attention promptly.
-
-{{< /faq-question >}}
-{{< faq-question "Can gastrointestinal disorders be linked to stress or lifestyle factors?">}}
-Yes, stress, poor diet, and sedentary habits can contribute to conditions like IBS, acid reflux, and gastritis. Dr. Bilal emphasizes holistic care, including lifestyle modifications, to improve gut health.{{< /faq-question >}}
-
-{{< faq-question "What liver diseases are most common in Kashmir, and how can they be prevented?">}}
-Common liver diseases include hepatitis B and C, fatty liver disease, and liver cirrhosis. Prevention strategies involve vaccinations, maintaining a healthy lifestyle, limiting alcohol consumption, and early diagnosis through routine check-ups.
-{{< /faq-question >}}
